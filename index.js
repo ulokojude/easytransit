@@ -12,8 +12,6 @@ window.addEventListener('DOMContentLoaded', () => {
   })();
 });
 
-
-// Tab Interaction Controller (Track Shipment vs Instant Quote)
 const tabs = document.querySelectorAll('.widget-tab');
 const panels = document.querySelectorAll('.widget-panel');
 
@@ -28,7 +26,6 @@ tabs.forEach(tab => {
   });
 });
 
-// Tracking Button Demonstration Event Handler
 const trackBtn = document.getElementById('trackBtn');
 const trackInput = document.getElementById('track-id');
 
@@ -41,7 +38,6 @@ trackBtn.addEventListener('click', () => {
   }
 });
 
-// Mobile Navbar Responsiveness Burger Toggle Linker
 const burger = document.getElementById('burgerMenu');
 const navLinks = document.querySelector('.nav-links');
 
